@@ -30,7 +30,7 @@ img {
   width: 100%;
 }
 
-.header {
+.masthead {
     background-color: #CCCCCC;
     overflow: hidden;
 }
@@ -52,7 +52,7 @@ img {
 }
 
 .intro {
-    background-color: #e0dedc;
+    background-color: #e2e2e2;
     text-align: center;
     font-weight: normal;
 }
