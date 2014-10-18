@@ -16,6 +16,30 @@ html {
   text-size-adjust: 100%;
 }
 
+@media only screen and (min-width:60em) {
+    
+    html {
+        font-size: 110%;
+    }
+    
+}
+
+@media only screen and (min-width:90em) {
+    
+    html {
+        font-size: 120%;
+    }
+    
+}
+
+@media only screen and (min-width:120em) {
+    
+    html {
+        font-size: 130%;
+    }
+    
+}
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -65,7 +89,7 @@ img {
     background-color: #e2e2e2;
 }
 
-@media only screen and (min-width:20em) {
+@media only screen and (min-width:25em) {
     
     .nav {
         text-align: center;
@@ -75,9 +99,13 @@ img {
         display: inline-block;
     }
     
+    .footer-nav {
+        text-align: center;
+    }
+    
 }
 
-@media only screen and (min-width:40em) {
+@media only screen and (min-width:38em) {
     
     .title {
         text-align: left;
@@ -87,6 +115,29 @@ img {
     .nav {
         float: left;
         padding: 1em 0;
+    }
+    
+        .footer-nav-left {
+        clear: left;
+        float: left;
+    }
+    
+    .footer-nav-right {
+        float: right;
+    }
+
+}
+
+@media only screen and (min-width:60em) {
+        
+    dt {
+        clear: left;
+        float: left;
+        width: 12em;
+    }
+    
+    dd {
+        float: left;
     }
     
 }

@@ -5,37 +5,39 @@
   <title>Moons</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="css/main.css" rel="stylesheet">
-  <link href="css/grid-moons.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
   <link href="css/typography.css" rel="stylesheet">
 </head>
 <body>
     
-<header class="masthead">
-    <h1 class="title peta island-half">Saturn</h1>
-    <nav>
-        <ul class="nav giga">
-            <li class="gutter-half"><a href="index.html">Planet</a></li>
-            <li class="gutter-half"><a href="moons.html">Moons</a></li>
-            <li class="gutter-half"><a href="exploration.html">Exploration</a></li>
+<header class="grid masthead pad-top-half pad-b-half">
+    <div class="unit gutter unit-xs-1 unit-s-1 unit-m-1-3 unit-l-1-3">
+        <h1 class="title peta push-0">Saturn</h1>
+    </div>
+    <nav class="unit gutter-half unit-xs-1 unit-s-1 unit-m-2-3 unit-l-2-3">
+        <ul class="nav giga push-0">
+            <li><a class="island-half" href="index.html">Planet</a></li>
+            <li><a class="island-half" href="moons.html">Moons</a></li>
+            <li><a class="island-half" href="exploration.html">Exploration</a></li>
         </ul>
     </nav>
 </header>
 
 <main>
-    <div class="intro">
-        <h2 class="pad-top-half pad-bottom-half push-none">Moons</h2>
+    <div class="intro peta island-half push">
+        <h2 class="push-0">Moons</h1>
     </div> 
 
     <div class="grid">
         <div class="unit unit-xs-1 unit-s-1 unit-m-1-2">
         
             <div class="grid">
-                <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2 island">
+                <div class="unit gutter push unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2">
                     <img src="images/mimas-cassini.jpg" alt="">
                 </div>
-                <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2 gutter">
+                <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2">
                     <h2 class="giga">Mimas Cassini</h2>
-                    <p>Mimas with its large crater Herschel. Prominent bright-walled craters in this view include Ban just left of center near top, and Percivale (with several dark streaks) two thirds of the way left of Herschel.</p>
+                    <p class="push-0">Mimas with its large crater Herschel. Prominent bright-walled craters in this view include Ban just left of center near top, and Percivale (with several dark streaks) two thirds of the way left of Herschel.</p>
                 </div>
             </div>
             
@@ -52,12 +54,12 @@
         <div class="unit unit-xs-1 unit-s-1 unit-m-1-2">
             
             <div class="grid">
-                <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2 island">
+                <div class="unit gutter push unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2">
                     <img src="images/titan.jpg" alt="">
                 </div>
-                <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2 gutter">
+                <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2">
                     <h2 class="giga">Titan</h2>
-                    <p>Titan in natural color. The thick atmosphere is orange due to a dense organonitrogen haze.</p>
+                    <p class="push-0">Titan in natural color. The thick atmosphere is orange due to a dense organonitrogen haze.</p>
                 </div>
             </div>
             
@@ -75,18 +77,21 @@
 
 </main>
 
-<footer class="masthead island-half">
-        
-            <nav>
-                <p class="milli">© 2014 Saturn Planetary Consortium</p>
-                <ul class="nav milli">
+<footer class="grid footer-nav masthead island-half">
+    <div class="unit micro unit xs-1 unit-s-1 unit-m-1-2 unit-l-1-3">    
+        <p class="footer-nav-left push-0">© 2014 Saturn Planetary Consortium</p>
+    </div>
+    <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-2-3">
+        <nav>
+            <ul class="nav footer-nav-right milli push-0">
                     <li><a href="index.html">Planet</a></li>
                     <li><a href="moons.html">Moons</a></li>
                     <li><a href="exploration.html">Exploration</a></li>
                 </ul>
             </nav>
-    
+        </div>
 </footer>
+
     
 </body>
 </html>
