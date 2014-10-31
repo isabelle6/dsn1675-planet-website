@@ -124,6 +124,45 @@ img {
     background-color: #e2e2e2;
 }
 
+form {
+    background-color: #e2e2e2;
+    overflow: hidden;
+}
+
+.centered {
+    text-align: center;
+}
+
+label {
+    display: block;
+}
+
+input + label {
+    display: inline-block;
+}
+
+fieldset {
+    border: none;
+}
+
+.input-boxes {
+    width: 100%;
+    height: 3em;
+}
+
+textarea {
+    width: 100%;
+    height: 20em;
+}
+
+.radio {
+    white-space: nowrap;
+}
+
+button {
+    font-size: 1.5em;
+}
+
 @media only screen and (min-width:25em) {
     
     .nav {
