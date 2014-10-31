@@ -199,6 +199,10 @@ button {
     .footer-nav-right {
         float: right;
     }
+    
+    .form-spacing {
+        padding: 0 1.5em 0 1.5em;
+    }
 
 }
 
@@ -212,6 +216,10 @@ button {
     
     dd {
         float: left;
+    }
+    
+    .form-spacing {
+        padding: 0 10em 0 10em;
     }
     
 }
