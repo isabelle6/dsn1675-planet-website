@@ -85,7 +85,7 @@ img {
 }
 
 .masthead {
-    background-color: #CCCCCC;
+    background-color: #99cccc;
     overflow: hidden;
 }
 
@@ -107,13 +107,17 @@ img {
 
 .nav a {
     text-decoration: none;
-    color: #0074D9;
+    color: #000;
 }
 
 .intro {
     background-color: #e2e2e2;
     text-align: center;
     font-weight: normal;
+}
+
+.headline-color {
+    color: #006666;
 }
 
 .index-image-background {
@@ -133,8 +137,7 @@ img {
 .nav a:active,
 .nav .nav-current:link,
 .nav .nav-current:visited {
-    background-color: #0074D9;
-    
+    background-color: #339999;
     color: #fff;
 }
 
@@ -175,6 +178,12 @@ textarea {
 
 button {
     font-size: 1.5em;
+}
+
+button:hover {
+    background-color: #339999;
+    color: #fff;
+    border: none;
 }
 
 @media only screen and (min-width:25em) {
